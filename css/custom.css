@@ -1,0 +1,13 @@
+body {background-color: bisque; margin: 0;}
+
+/*HEADER*/
+header {background: #abc url('../img/home.jpg') no-repeat center;
+background-size: cover; margin:0;}
+/*NAV*/
+nav {background-color: bisque;}
+nav ul {margin:0 auto; padding: 10px 0; width: 80%;
+display: flex; justify-content: space-around;
+list-style: none;}
+nav li {background-color: chartreuse; margin-left: 10px;}
+nav li:first-child {flex: 1;}/*1er enfant prend tout l'espace restant*/
+/*entete1*/
